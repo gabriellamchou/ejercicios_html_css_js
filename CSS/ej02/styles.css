@@ -1,0 +1,99 @@
+div {
+  display: inline-block;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+}
+
+tr#linea1 {
+  background-color: #de3163;
+}
+
+tr#linea2 {
+  background-color: #40e0d0;
+}
+
+tr#linea3 {
+  background-color: #6495ed;
+}
+
+#div1 {
+  background-color: lightcyan;
+  cursor: cell;
+}
+
+#div2 {
+  background-color: skyblue;
+  cursor: alias;
+}
+
+#div3 {
+  background-color: steelblue;
+  cursor: all-scroll;
+}
+
+#div4 {
+  background-color: royalblue;
+  cursor: crosshair;
+}
+
+#div5 {
+  background-color: navy;
+  cursor: col-resize;
+}
+
+#div6 {
+  cursor: copy;
+}
+
+#div7 {
+  cursor: e-resize;
+}
+
+#div8 {
+  cursor: grab;
+}
+
+#div9 {
+  cursor: grabbing;
+}
+
+#div10 {
+  cursor: help;
+}
+
+#div11 {
+  cursor: vertical-text;
+}
+
+#div12 {
+  cursor: not-allowed;
+}
+
+#div13 {
+  cursor: ns-resize;
+}
+
+#div14 {
+  cursor: wait;
+}
+
+#div15 {
+  cursor: zoom-in;
+}
+
+tr#linea2 div {
+  border-radius: 20%;
+  background-color: violet;
+}
+
+tr#linea3 div {
+  border-radius: 100%;
+  background-color: gold;
+}

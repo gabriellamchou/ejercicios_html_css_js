@@ -87,6 +87,7 @@ li#linea3{
 }
 
 li#linea2 div{
+    border-radius: 20%;
     background-color: violet;
 }
 
