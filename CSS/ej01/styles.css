@@ -1,0 +1,96 @@
+div{
+    display: inline-block;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li#linea1{
+    background-color: #DE3163;
+}
+
+li#linea2{
+    background-color: #40E0D0;
+}
+
+li#linea3{
+    background-color: #6495ED;
+}
+
+#div1{
+    background-color: lightcyan;
+    cursor: cell;
+}
+
+#div2{
+    background-color: skyblue;
+    cursor: alias;
+}
+
+#div3{
+    background-color: steelblue;
+    cursor:all-scroll
+}
+
+#div4{
+    background-color: royalblue;
+    cursor: crosshair;
+}
+
+#div5{
+    background-color: navy;
+    cursor: col-resize;
+}
+
+#div6{
+    cursor: copy;
+}
+
+#div7{
+    cursor: e-resize;
+}
+
+#div8{
+    cursor: grab;
+}
+
+#div9{
+    cursor: grabbing;
+}
+
+#div10{
+    cursor: help;
+}
+
+#div11{
+    cursor: vertical-text;
+}
+
+#div12{
+    cursor: not-allowed;
+}
+
+#div13{
+    cursor: ns-resize;
+}
+
+#div14{
+    cursor: wait;
+}
+
+#div15{
+    cursor: zoom-in;
+}
+
+li#linea2 div{
+    background-color: violet;
+}
+
+li#linea3 div{
+    border-radius: 100%;
+    background-color: gold;
+}
