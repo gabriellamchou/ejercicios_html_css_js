@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ej03</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <div id="nombreDiv">
+        <label for="nombre">Nombre </label>
+        <input type="text" id="nombre" required />
+        <label for="apellidos">Apellidos </label>
+        <input type="text" id="apellidos" required />
+      </div>
+      <div id="direccionDiv">
+        <fieldset>
+          <legend>Dirección</legend>
+          <div id="viaDiv">
+            <label for="tipoVia">Tipo de vía: </label>
+            <select type="text" id="tipoVia">
+              <option value="calle">Calle</option>
+              <option value="avenida">Avenida</option>
+              <option value="bulevar">Bulevar</option>
+            </select>
+            <label for="nombreVia">Nombre de la vía: </label>
+            <input type="text" id="nombreVia" required />
+          </div>
+          <div id="cpCiudad">
+            <label for="cp">Código Postal: </label>
+            <input type="number" id="cp" required />
+            <label for="ciudad">Ciudad: </label>
+            <input type="text" id="ciudad" required />
+          </div>
+          <div id="provPais">
+            <label for="provincia">Provincia: </label>
+            <select type="text" id="provincia">
+              <option value="coruna">A Coruña</option>
+              <option value="pontevedra">Pontevedra</option>
+              <option value="lugo">Lugo</option>
+              <option value="ourense">Ourense</option>
+            </select>
+            <label for="paisDir">País: </label>
+            <select type="text" id="paisDir">
+              <option value="espana">España</option>
+              <option value="portugal">Portugal</option>
+              <option value="francia">Francia</option>
+              <option value="alemania">Alemania</option>
+            </select>
+          </div>
+        </fieldset>
+      </div>
+      <div id="fechaNacDiv">
+        <label for="fechaNac">Fecha de nacimiento</label>
+        <input type="date" name="fechaNac" id="fechaNac" required />
+      </div>
+      <div id="notaMediaDiv">
+        <label for="notaMedia">Nota media en la universidad: </label>
+      <input type="number" id="notaMedia" step="0.01" min="0" max="10" />
+      </div>
+      <div id="tlfDiv">
+        <label for="tlf">Número de teléfono (Formato: 123 456 789): </label>
+        <input type="tel" id="tlf" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" required />
+      </div>
+      <div id="emailDiv">
+        <label for="email">Correo electrónico: </label>
+        <input type="email" id="email" required />
+      </div>
+      <div id="passDiv">
+        <label for="pass">Contraseña: </label>
+        <input type="password" id="pass" required />
+        <br />
+        <label for="repass">Repetir contraseña: </label>
+        <input type="password" id="repass" required />
+      </div>
+      <div id="paisSelectDiv">
+        <label for="paisSelect">Seleccionar país: </label>
+        <select type="text" id="paisSelect">
+          <option value="espana">España</option>
+          <option value="portugal">Portugal</option>
+          <option value="francia">Francia</option>
+          <option value="andorra">Andorra</option>
+        </select>
+      </div>
+      <div id="cuentaDiv">
+        <label for="tipoCuenta">Tipo de cuenta: </label>
+        <select type="text" id="tipoCuenta">
+          <option value="gratuita">Gratuita</option>
+          <option value="basica">Básica</option>
+          <option value="premium">Premium</option>
+        </select>
+        <ul>
+          <li>La cuenta gratuita es gratis</li>
+          <li>La cuenta básica cuenta con funciones básicas</li>
+          <li>La cuenta premium es la que más mola</li>
+        </ul>
+      </div>
+      <div id="aboutmeDiv">
+        <label for="aboutme">Sobre mí: </label>
+        <br />
+        <textarea
+          name="aboutme"
+          id="aboutme"
+          cols="50"
+          rows="7"
+          placeholder="Háblanos de tus intereses"
+        ></textarea>
+      </div>
+      <div id="profilepicDiv">
+        <label for="profilepic">Foto de perfil: </label>
+        <input type="file" name="profilepic" id="profilepic" />
+      </div>
+      <div id="cvDiv">
+        <label for="cv">Subir CV: </label>
+        <input type="file" name="cv" id="cv" />
+      </div>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
